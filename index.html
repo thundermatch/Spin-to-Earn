@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spin & Earn</title>
+
+  <!-- Telegram Web App API -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <!-- <script src='//libtl.com/sdk.js' data-zone='10491425' data-sdk='show_10491425'></script> -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h2>🎡 Spin & Earn</h2>
+  <p class="subtitle">Watch a short ad to spin the wheel and earn rewards</p>
+
+  <div class="wheel-wrapper">
+    <div class="pointer">▼</div>
+    <canvas id="wheel" width="300" height="300"></canvas>
+  </div>
+
+  <button id="spinBtn">SPIN NOW</button>
+  <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
